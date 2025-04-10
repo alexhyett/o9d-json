@@ -35,7 +35,7 @@ namespace O9d.Json.Formatting
                             if (i > 0 && hasNext)
                             {
                                 char nextChar = nameSpan[i + 1];
-                                if (char.IsLower(nextChar) && nextChar != '_')
+                                if (char.IsLower(nextChar))
                                 {
                                     sb.Append('_');
                                 }
